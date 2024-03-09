@@ -1,0 +1,85 @@
+test-cases:
+  - summary: |
+    Упешное добавление товара в корзину
+  status: pass
+
+- summary: |
+    Добавление нескольких товаров из каталога в корзину с указанием количества
+  status: fail
+  
+- summary: |
+    Успешное удаление товара
+  status: pass
+    
+- summary: |
+    Успешное оформление закааза
+  status: pass
+
+- summary: |
+    Проверка полного наполнения списка категорий
+  status: pass
+
+- summary: |
+    Проверка кроссбраузерности Firefox
+  status: pass
+
+- summary: |
+    Проверка кроссбраузерности Opera
+  status: pass
+
+- summary: |
+    Проверка корректной работы на SPA
+  status: pass
+
+- summary: |
+    Просмотр страницы товара
+  status: pass
+
+- summary: |
+    Успешная проверка сохранения товаров в браузере
+  status: pass
+
+- summary: |
+    Успешная проверка сохранения товаров в течение сессии 
+  status: pass 
+  
+- summary: |
+    При заказе происходит перенаправление на страницу оплаты
+  status: fail
+
+- summary: |
+    Есть мобильная версия сайта
+  status: pass
+
+- summary: |
+    Проверка локализации
+  status: fail
+
+- summary: |
+    Проверка работы поиска по ключевому слову
+  status: pass
+
+- summary: |
+    Проверка работы поиска товара по несуществующему среди названий ключевому слову
+  status: pass
+
+- summary: |
+    Успешная проверка содержимого карточки товара
+  status: pass
+
+bugreports:
+  - summary: |
+      Некорректная верстка в адаптивном режиме
+    environment: |
+      YaBrowser/23.3.3.719
+      ОС Windows 10 x64
+    steps-to-reproduce: |
+      1. Открываем главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app
+      2. Вызываем консоль
+      3. Выбираем "Toddle device toolbar"
+      4. Выбираем версию устройства
+      5. Проверяем содержимое сайта
+    expected-result: |
+      Верстка отображается корректно, так же как и на ПК версии
+    actual-result: |
+      Верстка отображается криво, данные раположены близко друг к другу
