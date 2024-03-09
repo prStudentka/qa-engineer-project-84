@@ -1,7 +1,7 @@
-name: Ilona Maskova # Ваше имя
+name: prStudentka # Ваше имя
 job: QA Engineer
 level: junior
-email: ilona@hexlet.io
+email: bk_nvk@mail.ru
 description: |
   Этот текст — описание в свободной форме. Здесь можно рассказать пару интересных фактов про себя.
 
@@ -9,6 +9,4 @@ description: |
 skills:
   - Функциональное тестирование
   - Написание багрепортов
-  - Linux
-  - Слепая печать
   - Английский язык C1
