@@ -10,10 +10,6 @@ pass the all steps manual testing
 
 ### List
 - requirements
-     divided on category:
-     - functional,
-     - non-functional,
-     - implicit
 - test-cases
 - testing-report
 - bugreports
